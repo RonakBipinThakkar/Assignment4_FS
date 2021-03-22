@@ -1,0 +1,28 @@
+{
+  "name": "assignment4_fs_API",
+  "version": "1.0.0",
+  "description": "CS648-02 Assignment4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -w . -w .env server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonakBipinThakkar"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.11.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "mongodb": "^3.5.5",
+    "nodemon": "^1.18.9"
+  }
+}

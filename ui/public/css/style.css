@@ -1,0 +1,38 @@
+#contents {
+    font-family: 'calibri', 'arial', 'sans-serif';
+    width: 600px;
+    height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 3rem;
+}
+
+button
+{
+    font-family: Calibri, Times New Roman, serif;
+}
+
+table 
+{
+    border-collapse: collapse;
+}
+
+table, th, td, button {
+    border: 1px solid black;
+}
+
+button {
+    padding: 0.5rem 3rem;
+}
+
+th,td
+{
+    padding: 5px;
+}
+label
+{
+    display: inline-block;
+    width: 100px;
+}
